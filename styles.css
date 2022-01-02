@@ -1,0 +1,168 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all 0.4s linear;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  color: #212529;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #065fd5;
+}
+a:hover {
+  text-decoration: underline;
+  color: #065fd5;
+}
+
+.icon,
+.far,
+.fas,
+.btn .far,
+.btn .fas {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+
+/* main */
+main {
+  flex-direction: column !important;
+}
+main .left {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: 2rem;
+  margin-top: 170px;
+}
+
+main .right {
+  width: 100%;
+  max-width: 450px;
+  margin-top: 30px;
+  margin-right: auto;
+}
+.video-container h6 {
+  font-size: 90%;
+}
+/* media */
+@media screen and (min-width: 800px) {
+  main {
+    flex-direction: row !important;
+  }
+
+  main .left,
+  main .right {
+    margin-top: 110px;
+  }
+
+  main .left {
+    width: 75%;
+  }
+  main .right {
+    width: 25%;
+  }
+  .video-container h6 {
+    font-size: 100%;
+  }
+}
+
+/* btn */
+.btn {
+  font-weight: 500 !important;
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+.btn-red {
+  color: #fff;
+  background-color: #f1152b;
+  border-color: #f1152b;
+}
+.btn-red:hover {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+footer {
+  background-color: #fff;
+}
+
+/* video */
+.video-container {
+  width: 97%;
+  margin: 0 auto;
+}
+.video-container .video {
+  width: 100%;
+}
+/* classes */
+.min-w-25 {
+  min-width: 25%;
+}
+
+.hideText {
+  height: 1.2rem;
+  overflow: hidden;
+}
+
+.showText {
+  height: auto;
+}
+
+.ch-thumb {
+  width: 50px;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+.w-85 {
+  width: 85% !important;
+}
+.w-15 {
+  width: 15% !important;
+}
+.nowrap {
+  white-space: nowrap !important;
+}
+
+.mt-70px {
+  margin-top: 70px !important;
+}
+.w-40 {
+  width: 40% !important;
+}
+.fs-90 {
+  font-size: 90% !important;
+}
+.outline-none,
+.btn {
+  outline: none !important;
+}
+
+.min-w-60 {
+  min-width: 60%;
+}
+
+.max-w-50 {
+  max-width: 50%;
+}
+
+.w-fit-content {
+  width: fit-content;
+}
